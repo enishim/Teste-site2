@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corporate - Single Page HTML Template</title>
+  <meta name="description" content="A clean, minimal single-page HTML template for corporate and business websites.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Corporate.</a>
+      <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Innovative solutions for modern business</h1>
+          <p>We provide strategic consulting and digital transformation services to help your organization thrive in a competitive landscape.</p>
+          <a href="#about" class="btn btn-primary">Learn More About Us</a>
+        </div>
+        <div class="hero-image">
+          <!-- Note: In a real deployment, replace with assets/images/hero.jpg -->
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop" alt="Modern office workspace">
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Our Company</h2>
+          <p>Dedicated to excellence, innovation, and delivering measurable results for our clients worldwide.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop" alt="Team collaborating" style="border-radius: var(--radius);">
+          </div>
+          <div class="about-content">
+            <h3>Our Mission</h3>
+            <p>Founded with a vision to transform how businesses approach digital solutions, our company has grown from a small startup into a trusted partner for organizations across multiple industries.</p>
+            <p>We believe in transparency, collaboration, and continuous improvement. Every project we undertake is an opportunity to push boundaries and deliver results that exceed expectations.</p>
+            <a href="#contact" class="btn btn-primary" style="margin-top: 1rem;">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>What We Offer</h2>
+          <p>Comprehensive solutions designed to address your unique challenges and drive growth.</p>
+        </div>
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon">💡</div>
+            <h3>Strategy & Consulting</h3>
+            <p>We analyze your business objectives and develop tailored strategies that align with your long-term vision.</p>
+          </div>
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-icon">⚡</div>
+            <h3>Digital Transformation</h3>
+            <p>Transform your operations with modern digital tools and processes to stay ahead of the curve.</p>
+          </div>
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon">📊</div>
+            <h3>Data Analytics</h3>
+            <p>Turn raw data into actionable insights to understand trends and make informed decisions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+      <div class="container">
+        <div class="section-header">
+          <h2>Latest Insights</h2>
+          <p>Explore our latest thinking on business strategy, technology, and organizational excellence.</p>
+        </div>
+        <div class="blog-grid">
+          <!-- Blog Post 1 -->
+          <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop" alt="Team meeting" class="blog-image">
+            <div class="blog-content">
+              <span class="blog-date">April 12, 2026</span>
+              <h3>Building resilient teams in uncertain times</h3>
+              <p>Learn how to foster strong, adaptable teams that can navigate challenges and deliver results.</p>
+              <a href="#" class="read-more">Read Article →</a>
+            </div>
+          </article>
+          <!-- Blog Post 2 -->
+          <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Data charts" class="blog-image">
+            <div class="blog-content">
+              <span class="blog-date">April 8, 2026</span>
+              <h3>Data-driven decision making</h3>
+              <p>Practical strategies for incorporating analytics into your decision-making process.</p>
+              <a href="#" class="read-more">Read Article →</a>
+            </div>
+          </article>
+          <!-- Blog Post 3 -->
+          <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop" alt="Laptop on desk" class="blog-image">
+            <div class="blog-content">
+              <span class="blog-date">April 5, 2026</span>
+              <h3>The future of digital transformation</h3>
+              <p>Explore emerging trends and how organizations can prepare for technological change.</p>
+              <a href="#" class="read-more">Read Article →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get in Touch</h2>
+          <p>Have questions about our services? We'd love to hear from you.</p>
+        </div>
+        <div class="contact-container">
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" id="name" name="name" class="form-control" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-control" required placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-control" rows="5" required placeholder="How can we help you?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h2>Corporate.</h2>
+      <p style="margin: 1rem 0;">123 Business Avenue, San Francisco, CA 94107</p>
+      <p>&copy; 2026 Corporate Inc. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Navigation Script -->
+  <script src="js/navigation.js"></script>
+</body>
+</html>
